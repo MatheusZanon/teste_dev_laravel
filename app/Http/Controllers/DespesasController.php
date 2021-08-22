@@ -23,7 +23,7 @@ class DespesasController extends Controller
         $userId = Auth::user()->id;
 
         $request->validate([
-            'data' => 'required|date',
+            'data' => 'required|date|before:tomorrow',
             'valor' => 'required|numeric|min:0',
             'descricao' => 'required|max:191'
         ]);
