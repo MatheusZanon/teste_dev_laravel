@@ -14,13 +14,13 @@
                     <div class="card-body">
                         <form action="" method="POST">
                             @csrf
-                            <label for="email">Email:</label>
-                            <input type="text" class="form-control" id="ticketDescription" name="description", rows="5" >
+                                <label for="email">Email:</label>
+                                <input type="text" class="form-control" id="ticketDescription" name="description", rows="5" >
                             <br>
-                            <label for="password">Senha:</label>
-                            <input type="text" class="form-control" id="ticketDescription" name="description", rows="5" >
+                                <label for="password">Senha:</label>
+                                <input type="text" class="form-control" id="ticketDescription" name="description", rows="5" >
                             <br>
-                            <button type="submit" class="btn btn-info btn-lg">Logar</button>
+                                <button type="submit" class="btn btn-info btn-lg">Logar</button>
                         </form>
                     </div>
                 </div>

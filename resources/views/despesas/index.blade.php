@@ -6,7 +6,12 @@
     <div class="col-6 mb-3">
         <div class="card mb-0">
             <div class="card-body">
-                <h4 class="card-title">Lista de Despesas</h4>
+                <div class="row">
+                    <div class="col-md-12 text-center mb-2">
+                        <h4 class="card-title">Lista de Despesas</h4>
+                        <a href="/users" class="btn btn-warning btn-sm float-right">Adicionar Nova Despesa</a>
+                    </div>
+                </div>
                 <div class="table-responsive">
                     <table class="table table-striped color-table inverse-table">
                         <thead>
