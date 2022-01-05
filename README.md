@@ -1,1 +1,1 @@
-Projeto de teste com Laravel 8
+Projeto de teste API Rest com Laravel 8
